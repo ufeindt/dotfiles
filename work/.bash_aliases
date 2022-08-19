@@ -1,8 +1,6 @@
 alias ntb='jupyter notebook --browser=vivaldi'
 
 alias comp='docker-compose'
-alias vc-up='cd ~/code/valuechecker;docker-compose up'
-alias vc-down='cd ~/code/valuechecker;docker-compose down'
 
 alias e='emacs'
 alias enw='emacs -nw'
@@ -42,8 +40,6 @@ alias t='alacritty --working-directory `pwd`&'
 
 alias setup-py2='conda activate py2'
 
-alias logs-matchingv1='ssh -t alasudo@matching901.office.alatest.se "less +F /var/log/matching/matching_full.log"'
-alias logs-matchingv2='ssh -t alasudo@matching902.office.alatest.se "less +F /var/log/matching_v2/matching_v2_log"'
 alias black79='black -l 79 -t py38'
 
 alias killvaldi='killall vivaldi-bin'
