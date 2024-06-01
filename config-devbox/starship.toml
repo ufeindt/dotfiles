@@ -1,0 +1,12 @@
+add_newline = false
+format = """$directory$character"""
+right_format = """$all"""
+
+[git_branch]
+truncation_length = 30
+
+[gcloud]
+disabled = true
+
+[package]
+disabled = true
