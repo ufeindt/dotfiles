@@ -1,0 +1,9 @@
+font_family      JetBrains Mono Regular
+bold_font        JetBrains Mono Bold
+italic_font      JetBrains Mono Italic
+bold_italic_font JetBrains Mono Bold Italic
+
+font_size 12.0
+disable_ligatures cursor
+
+hide_window_decorations yes

@@ -1,0 +1,28 @@
+configuration {
+    modes: "window,drun,run,ssh,filebrowser";
+    modi: "run,drun,window,filebrowser";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: "   Windows";
+    display-Network: " 󰤨  Network";
+    display-filebrowser: "  Files";
+    sidebar-mode: true;
+    timeout {
+        action: "kb-cancel";
+        delay:  0;
+    }
+    filebrowser {
+        directory: "/home/ufeindt";
+        directories-first: true;
+        sorting-method:    "name";
+    }
+}
+
+@theme "catppuccin-mocha"
