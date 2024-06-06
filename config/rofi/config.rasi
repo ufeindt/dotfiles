@@ -21,8 +21,8 @@ configuration {
     filebrowser {
         directory: "/home/ufeindt";
         directories-first: true;
-        sorting-method:    "name";
+        sorting-method: "name";
     }
 }
 
-@theme "catppuccin-mocha"
+@theme "mocha"

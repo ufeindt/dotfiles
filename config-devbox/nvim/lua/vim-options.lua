@@ -14,4 +14,7 @@ vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+-- Show realtive line numbers by default
+vim.wo.relativenumber = true
+
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')

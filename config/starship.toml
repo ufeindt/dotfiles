@@ -11,8 +11,8 @@ vimcmd_symbol = "[❮](green)"
 
 [directory]
 truncation_length = 4
-# Catppuccin 'lavender'
-style = "bold lavender"
+# Catppuccin 'mauve'
+style = "bold mauve"
 
 [git_branch]
 truncation_length = 30
