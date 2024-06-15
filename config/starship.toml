@@ -4,15 +4,14 @@ palette = "catppuccin_mocha"
 right_format = """$all"""
 
 [character]
-# Note the use of Catppuccin color 'maroon'
-success_symbol = "[[♥](green) ❯](maroon)"
+success_symbol = "[[♥](green) ❯](mauve)"
 error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
 [directory]
 truncation_length = 4
 # Catppuccin 'mauve'
-style = "bold mauve"
+style = "bold lavender"
 
 [git_branch]
 truncation_length = 30
