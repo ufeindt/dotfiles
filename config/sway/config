@@ -81,11 +81,11 @@ output * bg /usr/share/backgrounds/default.png fill
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
-input "1:1:AT_Translated_Set_2_keyboard" {
+input type:keyboard {
     xkb_layout us(altgr-intl)
 }
 
-input "2:7:SynPS/2_Synaptics_TouchPad" {
+input type:touchpad {
     dwt enabled
     tap enabled
     middle_emulation enabled
@@ -96,8 +96,8 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 # Basics:
 #
     # Start a terminal
-    bindsym $mod+Return exec $term distrobox enter karhide 
-    bindsym $mod+Shift+Return exec $term ~/
+   bindsym $mod+Return exec $term -d $HOME distrobox-enter --name devbox --additional-flags "--env XDG_CONFIG_HOME=$HOME/.config-devbox --env STARSHIP_CONFIG=$HOME/.config-devbox/starship.toml"
+    bindsym $mod+Shift+Return exec $term -d $HOME
 
     # Kill focused window
     bindsym $mod+Shift+q kill
