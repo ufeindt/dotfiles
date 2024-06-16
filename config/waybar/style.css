@@ -119,60 +119,153 @@ button:hover {
     margin-right: 0;
 }
 
-#idle_inhibitor.activated {
-    border-color: @lavender;
-    border-width: 2px;
+.modules-right > widget:nth-last-child(11) > #backlight,
+.modules-right > widget:nth-last-child(11) > #battery,
+.modules-right > widget:nth-last-child(11) > #clock,
+.modules-right > widget:nth-last-child(11) > #cpu,
+.modules-right > widget:nth-last-child(11) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(11) > #memory,
+.modules-right > widget:nth-last-child(11) > #network,
+.modules-right > widget:nth-last-child(11) > #pulseaudio,
+.modules-right > widget:nth-last-child(11) > #temperature {
+  color: @mauve;
+  border-color: @mauve;
 }
 
-#idle_inhibitor {
-    color: @lavender;
+.modules-right > widget:nth-last-child(10) > #backlight,
+.modules-right > widget:nth-last-child(10) > #battery,
+.modules-right > widget:nth-last-child(10) > #clock,
+.modules-right > widget:nth-last-child(10) > #cpu,
+.modules-right > widget:nth-last-child(10) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(10) > #memory,
+.modules-right > widget:nth-last-child(10) > #network,
+.modules-right > widget:nth-last-child(10) > #pulseaudio,
+.modules-right > widget:nth-last-child(10) > #temperature {
+  color: @lavender;
+  border-color: @lavender;
 }
 
-#pulseaudio {
-    color: @blue;
+.modules-right > widget:nth-last-child(9) > #backlight,
+.modules-right > widget:nth-last-child(9) > #battery,
+.modules-right > widget:nth-last-child(9) > #clock,
+.modules-right > widget:nth-last-child(9) > #cpu,
+.modules-right > widget:nth-last-child(9) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(9) > #memory,
+.modules-right > widget:nth-last-child(9) > #network,
+.modules-right > widget:nth-last-child(9) > #pulseaudio,
+.modules-right > widget:nth-last-child(9) > #temperature {
+  color: @blue;
+  border-color: @blue;
+}
+
+.modules-right > widget:nth-last-child(8) > #backlight,
+.modules-right > widget:nth-last-child(8) > #battery,
+.modules-right > widget:nth-last-child(8) > #clock,
+.modules-right > widget:nth-last-child(8) > #cpu,
+.modules-right > widget:nth-last-child(8) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(8) > #memory,
+.modules-right > widget:nth-last-child(8) > #network,
+.modules-right > widget:nth-last-child(8) > #pulseaudio,
+.modules-right > widget:nth-last-child(8) > #temperature {
+  color: @sapphire;
+  border-color: @sapphire;
+}
+
+.modules-right > widget:nth-last-child(7) > #backlight,
+.modules-right > widget:nth-last-child(7) > #battery,
+.modules-right > widget:nth-last-child(7) > #clock,
+.modules-right > widget:nth-last-child(7) > #cpu,
+.modules-right > widget:nth-last-child(7) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(7) > #memory,
+.modules-right > widget:nth-last-child(7) > #network,
+.modules-right > widget:nth-last-child(7) > #pulseaudio,
+.modules-right > widget:nth-last-child(7) > #temperature {
+  color: @sky;
+  border-color: @sky;
+}
+
+.modules-right > widget:nth-last-child(6) > #backlight,
+.modules-right > widget:nth-last-child(6) > #battery,
+.modules-right > widget:nth-last-child(6) > #clock,
+.modules-right > widget:nth-last-child(6) > #cpu,
+.modules-right > widget:nth-last-child(6) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(6) > #memory,
+.modules-right > widget:nth-last-child(6) > #network,
+.modules-right > widget:nth-last-child(6) > #pulseaudio,
+.modules-right > widget:nth-last-child(6) > #temperature {
+  color: @teal;
+  border-color: @teal;
+}
+
+.modules-right > widget:nth-last-child(5) > #backlight,
+.modules-right > widget:nth-last-child(5) > #battery,
+.modules-right > widget:nth-last-child(5) > #clock,
+.modules-right > widget:nth-last-child(5) > #cpu,
+.modules-right > widget:nth-last-child(5) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(5) > #memory,
+.modules-right > widget:nth-last-child(5) > #network,
+.modules-right > widget:nth-last-child(5) > #pulseaudio,
+.modules-right > widget:nth-last-child(5) > #temperature {
+  color: @green;
+  border-color: @green;
+}
+
+.modules-right > widget:nth-last-child(4) > #backlight,
+.modules-right > widget:nth-last-child(4) > #battery,
+.modules-right > widget:nth-last-child(4) > #clock,
+.modules-right > widget:nth-last-child(4) > #cpu,
+.modules-right > widget:nth-last-child(4) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(4) > #memory,
+.modules-right > widget:nth-last-child(4) > #network,
+.modules-right > widget:nth-last-child(4) > #pulseaudio,
+.modules-right > widget:nth-last-child(4) > #temperature {
+  color: @yellow;
+  border-color: @yellow;
+}
+
+.modules-right > widget:nth-last-child(3) > #backlight,
+.modules-right > widget:nth-last-child(3) > #battery,
+.modules-right > widget:nth-last-child(3) > #clock,
+.modules-right > widget:nth-last-child(3) > #cpu,
+.modules-right > widget:nth-last-child(3) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(3) > #memory,
+.modules-right > widget:nth-last-child(3) > #network,
+.modules-right > widget:nth-last-child(3) > #pulseaudio,
+.modules-right > widget:nth-last-child(3) > #temperature {
+  color: @peach;
+  border-color: @peach;
+}
+
+.modules-right > widget:nth-last-child(2) > #backlight,
+.modules-right > widget:nth-last-child(2) > #battery,
+.modules-right > widget:nth-last-child(2) > #clock,
+.modules-right > widget:nth-last-child(2) > #cpu,
+.modules-right > widget:nth-last-child(2) > #idle_inhibitor,
+.modules-right > widget:nth-last-child(2) > #memory,
+.modules-right > widget:nth-last-child(2) > #network,
+.modules-right > widget:nth-last-child(2) > #pulseaudio,
+.modules-right > widget:nth-last-child(2) > #temperature {
+  color: @red;
+  border-color: @red;
 }
 
 #pulseaudio.muted {
-    border-color: @blue;
     border-width: 2px;
 }
 
-#network {
-    color: @sapphire;
+#idle_inhibitor.activated {
+    border-width: 2px;
 }
 
 #network.disconnected {
-    border-color: @sapphire;
     border-width: 2px;
-}
-
-#temperature {
-    color: @sky;
 }
 
 #temperature.critical {
-    border-color: @sky;
     border-width: 2px;
 }
 
-#cpu {
-    color: @teal;
-}
-
-#memory {
-    color: @green;
-}
-
-#backlight {
-    color: @yellow;
-}
-
-#battery {
-    color: @peach;
-}
-
 #battery.warning:not(.charging) {
-    border-color: @peach;
     border-width: 2px;
 }
 
@@ -194,9 +287,48 @@ button:hover {
     animation-direction: alternate;
 }
 
+/*
+#idle_inhibitor {
+    color: @lavender;
+    border-color: @lavender;
+}
+
+#pulseaudio {
+    color: @blue;
+    border-color: @blue;
+}
+
+#network {
+    color: @sapphire;
+    border-color: @sapphire;
+}
+
+#temperature {
+    color: @sky;
+    border-color: @sky;
+}
+
+#cpu {
+    color: @teal;
+}
+
+#memory {
+    color: @green;
+}
+
+#backlight {
+    color: @yellow;
+}
+
+#battery {
+    color: @peach;
+    border-color: @peach;
+}
+
 #clock {
     color: @red;
 }
+*/
 
 #tray {
 }
