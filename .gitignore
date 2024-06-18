@@ -3,3 +3,4 @@ config*/fish/*
 !config*/fish/functions
 config*/fish/functions/fisher.fish
 config*/fish/functions/*nvm*.fish
+config*/nvim/lazy-lock.json
