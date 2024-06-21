@@ -8,8 +8,20 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     config = function()
+      if vim.fn.hostname() == "devbox" then 
+        local ensure_installed = {
+          "lua_ls",
+          "ruff_lsp",
+          "tsserver"
+        }
+      else
+        local ensure_installed = {
+          "lua_ls"
+        }
+      end
+
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls" }
+        ensure_installed = ensure_installed
       })
     end
   },
