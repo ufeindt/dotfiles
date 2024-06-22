@@ -2,6 +2,7 @@ config/fish/*
 !config/fish/config.fish
 !config/fish/functions
 config/fish/functions/fisher.fish
+config/fish/functions/*fzf*.fish
 config/fish/functions/*nvm*.fish
 config/fish/functions/_puffer_fish_*.fish
 config/nvim/lazy-lock.json
