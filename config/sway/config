@@ -46,7 +46,7 @@ set $menu $rofi_cmd -show drun
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /usr/share/backgrounds/default.png fill
+output * bg /usr/share/backgrounds/default-dark.png fill
 #
 # Example configuration:
 #
@@ -120,6 +120,9 @@ input type:touchpad {
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+    # Lock screen
+    bindsym  $mod+Escape exec loginctl lock-session
 #
 # Moving around:
 #
