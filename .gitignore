@@ -9,4 +9,4 @@ config/fish/functions/*fzf*.fish
 config/fish/functions/*nvm*.fish
 config/fish/functions/_puffer_fish_*.fish
 config/nvim/lazy-lock.json
-
+config/sway/config.d/99-outputs.conf
