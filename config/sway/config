@@ -46,7 +46,7 @@ set $menu $rofi_cmd -show drun
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /usr/share/backgrounds/default-dark.png fill
+output * bg ~/Pictures/Wallpapers/current.jpg fill
 #
 # Example configuration:
 #
