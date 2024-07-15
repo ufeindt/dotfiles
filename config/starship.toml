@@ -14,7 +14,7 @@ truncation_length = 4
 style = "bold mauve"
 
 [git_branch]
-truncation_length = 30
+truncation_length = 15
 
 [gcloud]
 disabled = true
