@@ -83,6 +83,7 @@ output * bg ~/Pictures/Wallpapers/current.jpg fill
 
 input type:keyboard {
     xkb_layout us(altgr-intl)
+    xkb_numlock enabled
 }
 
 input type:touchpad {
