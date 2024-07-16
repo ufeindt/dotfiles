@@ -4,6 +4,9 @@ separator_color= frame
 font = "JetBrainsMono 11"
 corner_radius = 10
 padding = 12
+idle_threshold = 120
+origin = top-center
+width = (400, 800)
 
 [urgency_low]
 background = "#1e1e2e"
