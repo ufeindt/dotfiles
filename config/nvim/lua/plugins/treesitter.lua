@@ -8,7 +8,9 @@ return {
       highlight = { enable = true },
       indent = { enable = true },
       ensure_installed = {
-        "lua"
+        "lua",
+        "markdown",
+        "vimdoc"
       },
     })
   end

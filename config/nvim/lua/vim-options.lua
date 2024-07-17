@@ -18,3 +18,11 @@ vim.opt.expandtab = true
 vim.wo.relativenumber = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+
+vim.diagnostic.config({
+  float = {
+    source = 'always',
+    border = border
+  },
+  virtual_text = false
+})
