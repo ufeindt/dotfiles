@@ -124,6 +124,9 @@ input type:touchpad {
 
     # Lock screen
     bindsym  $mod+Escape exec loginctl lock-session
+
+    # Suspend the computer
+    bindsym $mod+Shift+Escape exec systemctl suspend
 #
 # Moving around:
 #
