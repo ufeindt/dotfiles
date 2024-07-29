@@ -14,7 +14,9 @@ client.urgent            $base     $peach    $base  $overlay0  $peach
 client.placeholder       $overlay0 $base     $text  $overlay0  $overlay0
 client.background        $base
 
-default_border pixel 2 
+default_border pixel 2
+default_floating_border pixel 2
+
 
 gaps inner 2
 gaps outer 2
@@ -206,7 +208,7 @@ input type:touchpad {
     bindsym $mod+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
-    bindsym $mod+Shift+space floating toggle
+    bindsym $mod+Shift+space floating toggle, border pixel 2
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
