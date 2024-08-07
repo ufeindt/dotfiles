@@ -11,6 +11,12 @@ return {
       vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
       vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
       vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+      vim.keymap.set('n', '<leader>ff', function()
+        builtin.lsp_document_symbols({ ignore_symbols = { 'field', 'variable' } })
+      end, {})
+      vim.keymap.set('n', '<leader>fd', builtin.lsp_definitions, {})
+      vim.keymap.set('n', '<leader>fi', builtin.lsp_implementations, {})
+      vim.keymap.set('n', '<leader>ft', builtin.lsp_type_definitions, {})
     end
   },
   {
