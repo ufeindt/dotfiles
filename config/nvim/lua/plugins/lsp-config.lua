@@ -10,12 +10,14 @@ return {
     config = function()
       require("mason-lspconfig").setup({
         ensure_installed = {
+          "astro",
           "lua_ls",
           "pylsp",
           "pyright",
           "ruff_lsp",
           "tsserver"
-        }
+        },
+        automatic_installation = true,
       })
     end
   },
@@ -57,6 +59,12 @@ return {
       })
       lspconfig.ruff_lsp.setup({})
       lspconfig.tsserver.setup({})
+      lspconfig["astro"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+        filetypes = { "astro" },
+      })
+
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
