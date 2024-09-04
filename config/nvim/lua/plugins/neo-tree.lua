@@ -17,6 +17,6 @@ return {
         },
       }
     })
-    vim.keymap.set('n', '<c-n>', ':Neotree filesystem reveal left<CR>')
+    vim.keymap.set('n', '<c-n>', ':Neotree filesystem reveal float<CR>')
   end
 }
