@@ -14,8 +14,8 @@ return {
           "lua_ls",
           "pylsp",
           "pyright",
-          "ruff_lsp",
-          "tsserver"
+          "ruff",
+          "ts_ls"
         },
         automatic_installation = true,
       })
@@ -57,8 +57,8 @@ return {
           },
         },
       })
-      lspconfig.ruff_lsp.setup({})
-      lspconfig.tsserver.setup({})
+      lspconfig.ruff.setup({})
+      lspconfig.ts_ls.setup({})
       lspconfig["astro"].setup({
         capabilities = capabilities,
         on_attach = on_attach,
