@@ -15,6 +15,7 @@ return {
           "pylsp",
           "pyright",
           "ruff",
+          "rust_analyzer",
           "ts_ls"
         },
         automatic_installation = true,
