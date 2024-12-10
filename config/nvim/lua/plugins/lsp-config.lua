@@ -52,7 +52,7 @@ return {
           python = {
             analysis = {
               autoSearchPaths = true,
-              typeCheckingMode = "basic",
+              typeCheckingMode = "standard",
               useLibraryCodeForTypes = true,
             },
           },
