@@ -39,9 +39,6 @@ return {
         }
       })
       lspconfig.pyright.setup({
-        handlers = {
-          ["textDocument/publishDiagnostics"] = function() end,
-        },
         on_attach = function(client, _)
           client.server_capabilities.codeActionProvider = false
         end,
