@@ -16,6 +16,7 @@ return {
           "pyright",
           "ruff",
           "rust_analyzer",
+          "svelte",
           "ts_ls"
         },
         automatic_installation = true,
@@ -56,6 +57,7 @@ return {
         },
       })
       lspconfig.ruff.setup({})
+      lspconfig.svelte.setup({})
       lspconfig.ts_ls.setup({})
       lspconfig["astro"].setup({
         capabilities = capabilities,
