@@ -32,6 +32,7 @@ return {
         settings = {
           pylsp = {
             plugins = {
+              mccabe = { enabled = false },
               pyflakes = { enabled = false },
               pycodestyle = { enabled = false },
               pylsp_rope = { enabled = true },
