@@ -17,7 +17,8 @@ return {
           "ruff",
           "rust_analyzer",
           "svelte",
-          "ts_ls"
+          "ts_ls",
+          "volar"
         },
         automatic_installation = true,
       })
@@ -65,6 +66,16 @@ return {
         on_attach = on_attach,
         filetypes = { "astro" },
       })
+      lspconfig.volar.setup {
+        -- add filetypes for typescript, javascript and vue
+        filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue' },
+        init_options = {
+          vue = {
+            -- disable hybrid mode
+            hybridMode = false,
+          },
+        },
+      }
 
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
