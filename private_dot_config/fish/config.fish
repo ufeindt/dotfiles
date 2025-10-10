@@ -1,0 +1,16 @@
+if status is-interactive
+    set fish_greeting
+    fish_config theme choose "Catppuccin Mocha"
+    starship init fish | source
+    zoxide init fish | source
+    if test -e /usr/bin/direnv
+      direnv hook fish | source
+    end
+end
+
+# pnpm
+set -gx PNPM_HOME "/home/ufeindt/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
