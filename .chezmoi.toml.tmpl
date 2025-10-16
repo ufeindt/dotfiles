@@ -1,0 +1,10 @@
+{{ $email := promptStringOnce . "email" "What is your email address" -}}
+{{ $useDistrobox := promptBoolOnce . "useDistrobox" "Will this machine use distrobox?" -}}
+
+[data]
+    email = {{ $email | quote }}
+    useDistrobox = {{ $useDistrobox }}
+
+[git]
+    autoCommit = true
+    autoPush = true
