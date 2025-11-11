@@ -1,5 +1,5 @@
-{{ $email := promptStringOnce . "email" "What is your email address" -}}
-{{ $useDistrobox := promptBoolOnce . "useDistrobox" "Will this machine use distrobox?" -}}
+{{ $email := promptString "email" -}}
+{{ $useDistrobox := promptBool "useDistrobox" -}}
 
 [data]
     email = {{ $email | quote }}
