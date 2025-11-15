@@ -9,7 +9,7 @@ layout_uv() {
         VIRTUAL_ENV="$(pwd)/.venv"
     fi
 
-    PATH_add "$VIRTUAL_ENV/bin"
+    uv venv activate
     export UV_ACTIVE=1  # or VENV_ACTIVE=1
     export VIRTUAL_ENV
 }
