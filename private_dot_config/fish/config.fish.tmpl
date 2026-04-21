@@ -16,6 +16,4 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-{{- if eq .email "ulrich.feindt@betao.se" }}
 {{ .chezmoi.homeDir}}/.local/bin/mise activate fish | source
-{{- end }}
